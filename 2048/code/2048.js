@@ -207,7 +207,6 @@ map.move = function(direction) {
 }
 
 function setDivNumber(div, num) {
-    // TODO: 更改div的class 删除有关常量
     if(num != 0)
         div.innerHTML = ''+num;
     else
@@ -250,7 +249,7 @@ function init() {
         }
     }
     document.addEventListener("keypress", readKey);
-    document.body.addEventListener('touchend', (e) => {
+    backgroundDiv.addEventListener('touchend', (e) => {
         moveListener.endTime = performance.now();
         moveListener.end = [
             e.changedTouches[0].screenX,
@@ -277,14 +276,14 @@ function init() {
             }
         }
     });
-    document.body.addEventListener("touchstart", (e) => {
+    backgroundDiv.addEventListener("touchstart", (e) => {
         moveListener.startTime = performance.now();
         moveListener.start = [
             e.touches[0].screenX,
             e.touches[0].screenY
         ];
     });
-    document.body.addEventListener("touchmove", (e)=>{
+    backgroundDiv.addEventListener("touchmove", (e)=>{
         e.preventDefault();
     }, {passive: false});
     map.init();
@@ -362,7 +361,6 @@ function generate() {
         createList = new Array();
         updateMap();
         ready = true;
-
         requestAnimationFrame(
             ()=>{
                 if(gameOver) {
@@ -371,7 +369,7 @@ function generate() {
                     );
                 }
             }
-        )
+        );
     });
 }
 
