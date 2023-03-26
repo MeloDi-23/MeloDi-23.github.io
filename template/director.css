@@ -1,0 +1,39 @@
+﻿ul#director {
+    font-size: 1.5em;
+    color: #3e6803;
+    margin-top: 20px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #5e990c;
+}
+
+li.director {
+    display: inline;
+    padding: 10px;
+}
+
+li.selected {
+    background-color: #3e6803;
+    color: #5e990c;
+    display: inline;
+    padding: 10px;
+}
+
+a.director {
+    text-decoration: none;
+}
+a.director:visited {
+    color: inherit;
+}
+
+a.director:active {
+    color: inherit;
+}
+
+a.director:hover {
+    color: inherit;
+}
+
+a.director:link {
+    color: inherit;
+}

@@ -1,0 +1,98 @@
+﻿
+
+body {
+    background-color: #76b415;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Consolas;
+}
+div.page {
+    border: 2px dotted black;
+    background-color: #dbce21;
+    padding: 10px 10px 10px 10px;
+}
+div#poem_div{
+    font-size: 0.8em;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #8cdc0f;
+}
+
+
+h2 {
+    color: #383838;
+    font-family: sans-serif;
+}
+
+h1 {
+    border-bottom: solid 2px;
+    color: black;
+    font-family: sans-serif
+}
+em {
+    font-weight: bold;
+}
+em.red {
+    font-style: normal;
+    text-decoration: underline;
+    color: red;
+}
+
+.fun {
+    font-family: 'Comic Sans MS'
+}
+
+blockquote {
+    line-height: 1.5em;
+}
+
+#poor {
+    color: #808080;
+}
+
+div#pic {
+    float: right;
+    border: 2px dashed black;
+    background-color: #ff6a00;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 15px;
+    width: 350px;
+    text-align: center;
+}
+
+div#pic h2 {
+    font-size: 1em;
+}
+div#pic p {
+    font-size: 1em;
+}
+
+
+a:visited {
+    color: #3d5911;
+}
+a:hover {
+    color: red;
+}
+a:link {
+    color: red;
+}
+
+
+span.time {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+p.foot {
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    clear: right;
+}
