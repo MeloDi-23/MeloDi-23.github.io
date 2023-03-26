@@ -1,0 +1,136 @@
+div.cell {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10%;
+    vertical-align: middle;
+    line-height: 90px
+}
+#background {
+    background-color: #adbdc3;
+    padding: 40px;
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+#heading {
+    text-align: left;
+    font-family: 'Comic Sans MS';
+    width: 520px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #adbdc3;
+    border: #adbdc3 solid 10px;
+    border-radius: 10px;
+    line-height: 60px;
+}
+#game_body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 540px;
+    margin: auto;
+}
+.table {
+    display: table;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+.row {
+    display: table-row;
+}
+.table_cell {
+    display: table-cell;
+    padding: 10px;
+    height: 80px;
+}
+.info {
+    display: block;
+    font-size: large;
+    color: #e65423;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: #f3f9f1;
+    border: #adbdc3 5px solid;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.game_button {
+    font-size: large;
+    color: #0d8082;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: white;
+    position: relative;
+    top: 15px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    background-color: #f3f9f1;;
+}
+/*TODOs*/
+.s0 {
+    background-color: #f3f9f1;
+}
+.s2 {
+    background-color: #3eede7;
+    color: #24928e;
+    font-size: 50px;
+}
+.s4 {
+    background-color: #3de1ad;
+    color: #299a76;
+    font-size: 50px;
+}
+.s8 {
+    background-color: #04ad83;
+    color: #4a7d72;
+    font-size: 50px;
+}
+.s32 {
+    background-color: #879fb1;
+    color: #50616d;
+    font-size: 50px;
+}
+.s16 {
+    background-color: #187bbd;
+    color: #144179;
+    font-size: 50px;
+}
+.s64 {
+    background-color: #b0a4e3;
+    color: #8077a8;
+    font-size: 50px;
+}
+.s128 {
+    background-color: #edd1d8;
+    color: #af818c;
+    font-size: 40px;
+}
+.s256 {
+    background-color: #73b69f;
+    color: #497364;
+    font-size: 40px;
+}
+.s512 {
+    background-color: #785d8c;
+    color: #4d365f;
+    font-size: 40px;
+}
+.s1024 {
+    background-color: #c25fba;
+    color: #80347a;
+    font-size: 35px;
+}
+.s2048 {
+    background-color: #e9bb1d;
+    color: #9c761d;
+    font-size: 35px;
+}
