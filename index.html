@@ -7,22 +7,69 @@
 <body>
 	<link href="./template/sheet1.css" rel="stylesheet" type="text/css" />
 	<link href="./template/director.css" rel="stylesheet" type="text/css" />
+	<link href="./template/code_style.css" rel="stylesheet" type="text/css" />
 	<div class="page">
 		<h1>写在前面</h1>
-		<p>第一次用github吼~（菜鸡的感觉哈哈哈哈）。
-			好多东西还都是网上找的教程，做起来比较慢的。这个HTML先作为主页吧。
-			我还没有加任何的样式与CSS，因为我还没有完全弄明白怎么把文件拷到github上面，
-			所以这个暂时没有CSS文件。
+		<p>第一次用github吼~（小菜鸡的感觉哈哈哈哈）。<br/>
+好多东西还都是网上找的教程，做起来比较慢的。这个HTML先作为主页吧。
+我还没有加任何的样式与CSS，因为我还没有完全弄明白怎么把文件拷到github上面，
+所以这个暂时没有CSS文件。<br>
+（现在是3/27，现在加入了CSS文件了。不过颜色相当丑，是很早之前用的模板，把颜色改一改再push一次。）
 		</p>
 		<p>
 			其实主要是想做一个主页，然后上面放点好玩的东西之类。
-			然后能分享一下做的页游（最近其他语言没怎么碰了，刚做了一个js的小游戏）。
-			以后能做到哪里，我很期待。
+然后能分享一下做的页游（最近其他语言没怎么碰了，刚做了一个js的小游戏）。以后能做到哪里，我很期待。
 		</p>
 		<ul class="director">
-			<li><a href="./2048/2048.html">2048</a></li>
-			<li><a href="./2048-game/2048.html">submodule</a></li>
+			<li><a href="./2048/2048.html">2048(有时间测试一下，把多于的文件删掉)</a></li>
+			<li><a href="./2048-game/2048.html">2048 game</a></li>
 		</ul>
-	</div>	
+		<h2>
+			新手记录注意事项
+		</h2>
+		<h3>
+			git bash的使用命令
+		</h3>
+		<p>
+			git环境配置
+			<div class="code">
+				git config --global user.email "&lt;email address&gt;"<br>
+				git config --global user.name "&lt;name&gt;"<br>
+				git init
+			</div>
+			添加工作点
+			<div class="code">
+				git add .<br>
+				git remote add origin &lt;github keygen, use ssh&gt;
+			</div class="code">
+			本地提交
+			<div class="code">
+				git commit -m"&lt;message&gt;"
+			</div class="code">
+			上传
+			<div class="code">
+				git push/pull origin &lt;branch name, ussually is master&gt;
+			</div>
+			如果出现冲突错误，以云端为准，先pull，修改完成后再push。养成习惯<em>尽量用bash，少用网页操作</em>！
+		</p>
+		<div class="comment">
+			<p>
+				感谢网上教程，入门看的是
+				<a href="https://blog.csdn.net/one111a/article/details/106687628">如何使用github-CSDN</a>；
+				创建主页最开始看的是
+				<a href="https://zhuanlan.zhihu.com/p/91652100">如何使用github.io制作个人主页-zhihu</a>
+				（不过说老实话，这个教程实在面向新新手，但是会写HTML又不晓得github应该也蛮在少数吧）。
+	
+			</p>
+			<p>
+				感觉很多东西是自己抄了好几遍，然后搞清楚的东西，光抄是不够的，毕竟总是会遇到种种问题，
+那些教程都只是初步教程，真正完整的教程，更多应该是需要看书才成。
+不过自己写下来的东西也更不错。
+			</p>
+		</div>
+		
+
+
+	</div>
 </body>
 </html>

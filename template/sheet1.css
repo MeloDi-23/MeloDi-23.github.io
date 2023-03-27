@@ -1,31 +1,15 @@
 ﻿
 
 body {
-    background-color: #76b415;
+    background-color: #ffffff;
     margin-left: 20%;
     margin-right: 20%;
     font-family: Consolas;
 }
 div.page {
     border: 2px dotted black;
-    background-color: #dbce21;
-    padding: 10px 10px 10px 10px;
-}
-div#poem_div{
-    font-size: 0.8em;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    width: auto;
-    height: auto;
-    padding: 10px;
-    background-color: #8cdc0f;
-}
-
-
-h2 {
-    color: #383838;
-    font-family: sans-serif;
+    background-color: #fff67b;
+    padding: 50px;
 }
 
 h1 {
@@ -35,11 +19,7 @@ h1 {
 }
 em {
     font-weight: bold;
-}
-em.red {
-    font-style: normal;
     text-decoration: underline;
-    color: red;
 }
 
 .fun {
@@ -50,6 +30,22 @@ blockquote {
     line-height: 1.5em;
 }
 
+.code {
+    background-color: black;
+    color: rgb(184, 184, 184);
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border-left: grey solid 10px;
+    border-radius: 5px;
+    border-right: black solid 10px;
+    line-height: 20px;
+}
+.comment {
+    color: rgb(81, 81, 81);
+    padding: 5px 10px 5px 10px;
+    border-left: 10px solid grey;
+    background-color: #c4c4c4;
+}
 #poor {
     color: #808080;
 }

@@ -385,7 +385,7 @@ function updateMap() {
 
 function drawAnimationByCSS(callBack=null) {
 
-    let totalTime = 150, totalTime_2 = 150;
+    let totalTime = 150, totalTime_2 = 50;
     let parent = divArray[0][0].offsetParent;
     let divList = new Array();
 
