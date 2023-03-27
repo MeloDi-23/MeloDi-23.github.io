@@ -1,0 +1,3 @@
+[submodule "2048-game"]
+	path = 2048-game
+	url = git@github.com:MeloDi-23/2048-game.git
