@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #d5ffad;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Consolas;
+}
+div.page {
+    border: 2px dotted rgb(197, 236, 23);
+    background-color: #fcf69f;
+    padding: 50px;
+}
+
+h1 {
+    border-bottom: solid 2px;
+    color: black;
+    font-family: sans-serif
+}
+em {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.fun {
+    font-family: 'Comic Sans MS'
+}
+
+blockquote {
+    line-height: 1.5em;
+}
+
+.comment {
+    color: rgb(81, 81, 81);
+    padding: 5px 10px 5px 10px;
+    border-left: 10px solid grey;
+    background-color: #f0f0f0;
+}
+
+a:visited {
+    color: #3d5911;
+}
+a:hover {
+    color: red;
+}
+a:link {
+    color: red;
+}

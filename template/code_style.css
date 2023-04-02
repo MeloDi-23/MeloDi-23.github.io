@@ -1,0 +1,10 @@
+.code {
+    background-color: black;
+    color: rgb(184, 184, 184);
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border-left: grey solid 10px;
+    border-radius: 5px;
+    border-right: black solid 10px;
+    line-height: 20px;
+}
